@@ -1,0 +1,48 @@
+*{
+	padding: 0; margin: 0;
+	font-family: Helvetica Neue, Arial, sans-serif;
+}
+/*header*/
+header{
+	width: 100%; height: 70px;
+	background-color: #f9f9f9;
+	border: 0.1px solid #eeeeee;
+	border-radius: 5px;
+}
+header h1{
+	padding: 15px 90px;
+	font-weight: 300;
+}
+/*navbar*/
+nav{
+	position: absolute;
+	top: 15px;
+	left: 500px;
+	height: auto;
+}
+ul li{
+	width: 100px; line-height: 40px;
+	list-style: none;float: left;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+}
+/*mainbody*/
+main{
+	width: 100%; height: 400px;
+	padding: 30px 100px;
+}
+/*footer*/
+footer{
+	width: 100%; height: auto; top: 50px;
+	position: relative;
+}
+footer small{
+	font-size: 100%;
+	padding: 30px 100px;
+}
+/*loginform div*/
+form.loginform{
+	border: 0.5px solid #eeeeee;
+}
